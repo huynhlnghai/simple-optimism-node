@@ -23,8 +23,5 @@ exec op-node \
   --l1.trustrpc \
   --l1.rpckind=$OP_NODE__RPC_TYPE \
   --l1.beacon=$OP_NODE__L1_BEACON \
-  --metrics.enabled \
-  --metrics.addr=0.0.0.0 \
-  --metrics.port=7300 \
   --syncmode=execution-layer \
   $EXTENDED_ARG $@
